@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects Personal Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div>
+        <nav>
+            <div class="logo">Melody<b>.</b></div>
+            <ul class="navItems">
+                <li><a href="./index.html">About Me</a></li>
+                <li><a href="./projects.html">Projects</a></li>
+                <li><a href="./index.html">Contact</a></li>
+            </ul>
+            <div class="links">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="mailto:ywaiwaioo@gmail.com"><i class="fab fa-envelope fa-rotate-90"></i></a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+        <section class="one">
+            <div class="pcol pcols0">
+                <h2>Pacman Game</h2>
+                <p class="p1">Language: Java</p>
+                <video width="500px" height="400px" controls="controls" />
+                <source src="/Users/melodyzi/Documents/personalWebsite/Pacman.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="pcol pcols1">
+
+                <p class="p1">
+                    <br><br><br>Developed a Pacman game that includes a pacman and ghosts with the adaptation to Pacman
+                    game concept
+                    by focusing on Object Oriented Concepts, GUI and various methods. It also includes a scoreboard that
+                    tracked the real time, player name and score. The score increased
+                    by 1 as the pacman touch each circle along the maze. When the pacman touched a ghost(s) the user can
+                    resume the game 3 times until it is Game Over.
+                </p>
+            </div>
+        </section>
+
+        <section class="two">
+            <div class="pcol pcols0">
+                <h2>Social Circles Twitter</h2>
+                <p class="p1">Language: Rust</p>
+            </div>
+            <div class="pcol pcols1">
+
+                <p class="p1"><br><br><br>Analysis of Twitter dataset mainly focusing on Six Degree of Separation with
+
+                    Rust Programming
+
+                    on <a href="https://snap.stanford.edu/data/ego-Twitter.html">Twitter Dataset </a>from Stanford
+                    Network Analysis Database. It was hard to clean the process the dataset with 81,306 nodes and
+                    1,768,149 edges.
+
+                    The skills used were
+                    Breath first search from a start point (root node),
+                    Hashmaps, Hashtables for data preprocessing, finding
+                    Maximum and Minimum connections of Twitter users, Largest node, and Test codes<br>Further
+                    documentation of this project can be found in <a
+                        href="https://github.com/yunwwoo/Twitter_SocialCircle">this github respositary </a></p>
+
+
+            </div>
+        </section>
+
+        <section class="three">
+            <div class="pcol pcols0">
+                <h2>Vehicle Dataset</h2>
+                <p class="p1">Language: R</p>
+                <br>
+                <img src="Vehicledataplot.png" alt="Boxplot" width="500" height="270">
+            </div>
+            <div class="pcol pcols1">
+
+                <p class="p1"><br><br><br>
+                    In this project, I explored into a vechicle dataset with 2500 rows and 12 attributes. My main
+                    purpose was to predict the prices of vehicles based on differnt attributes such as km_dirven,
+                    mileage, age, seats, etc.<br>
+                    &#x2022;Dealt with str functions: sub_set, str_sub <br>
+                    &#x2022;Changed from character to integer and different numerical data<br>
+                    &#x2022;Utilized tidyverse package: mutate, filter, case_when<br>
+                    &#x2022;Visualized dataset with gg package: boxplot<br>
+                    &#x2022;Fitted models using lm and cor</p>
+            </div>
+        </section>
+    </div>
+    <hr width="80%" size="8" align="center">
+    <hr noshade>
+</body>
+
+</html>
